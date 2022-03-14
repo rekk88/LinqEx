@@ -14,13 +14,14 @@ namespace LinqFeatures
         {
             IEnumerable<Employee> developers = new Employee[]
             {
-                new Employee{Id = 1, Name = "Gianni" },
+                new Employee{Id = 1, Name = "Sorin"},
+                new Employee{Id = 3, Name = "Gianni"},
+                new Employee{Id = 2, Name = "Francesco" },
                 new Employee{Id = 4, Name = "Francesca"}
             };
 
             Employee[] employees = new Employee[]
             {
-                new Employee{Id = 1, Name = "Sorin"},
                 new Employee{Id = 2, Name = "Chris"}
             };
 
@@ -33,7 +34,14 @@ namespace LinqFeatures
             {
                 new Employee{Id = 5, Name = "Sara"}
             };
-            Console.WriteLine(developers.Count());
+
+            //take developers with a name.Length > 3 and order them by Name
+            foreach (var item in developers.Where(e => e.Name.Length > 3)
+                                           .OrderBy(e => e.Name))
+            {
+                Console.WriteLine(item.Name);
+            }
+            Console.WriteLine($"There are a total of : {developers.Count()} developers");
         }
     }
 }
