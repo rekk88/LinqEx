@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqPractice\\LinqPractice.csproj": {}
+    "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqPractice\\LinqPractice.csproj": {
+    "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqPractice\\LinqPractice.csproj",
-        "projectName": "LinqPractice",
-        "projectPath": "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqPractice\\LinqPractice.csproj",
+        "projectUniqueName": "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj",
+        "projectName": "LinqFeatures",
+        "projectPath": "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj",
         "packagesPath": "C:\\Users\\Maicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqPractice\\obj\\",
+        "outputPath": "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqFeatures\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maicol\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,16 @@
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\bin\Debug\net5.0\LinqFeatures.exe
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\bin\Debug\net5.0\LinqFeatures.deps.json
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\bin\Debug\net5.0\LinqFeatures.runtimeconfig.json
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\bin\Debug\net5.0\LinqFeatures.runtimeconfig.dev.json
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\bin\Debug\net5.0\LinqFeatures.dll
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\bin\Debug\net5.0\ref\LinqFeatures.dll
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\bin\Debug\net5.0\LinqFeatures.pdb
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\obj\Debug\net5.0\LinqFeatures.csproj.AssemblyReference.cache
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\obj\Debug\net5.0\LinqFeatures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\obj\Debug\net5.0\LinqFeatures.AssemblyInfoInputs.cache
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\obj\Debug\net5.0\LinqFeatures.AssemblyInfo.cs
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\obj\Debug\net5.0\LinqFeatures.csproj.CoreCompileInputs.cache
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\obj\Debug\net5.0\LinqFeatures.dll
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\obj\Debug\net5.0\ref\LinqFeatures.dll
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\obj\Debug\net5.0\LinqFeatures.pdb
+C:\Users\Maicol\source\repos\LinqEx\LinqPractice\LinqFeatures\obj\Debug\net5.0\LinqFeatures.genruntimeconfig.cache

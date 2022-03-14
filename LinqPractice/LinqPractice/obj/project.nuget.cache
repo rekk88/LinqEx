@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kFnn7sEWdSwyyx4lUV8qGuOYsxYVPd5yQbxBlsWDZGEMlWYbxptxDAKBK5A85obNfWqBUqaoOIINr1UfVD9wmA==",
+  "dgSpecHash": "QCoswOaohkfc9skcVsd3+2MPsr+PctAGY+Nb3G1Q3ZMsGCfHL68xLY0D+iGlM4YSLyorBLdT2Rz7m8t+e84CyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqPractice\\LinqPractice.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Maicol\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

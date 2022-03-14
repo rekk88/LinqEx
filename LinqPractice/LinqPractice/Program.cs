@@ -9,19 +9,25 @@ namespace LinqPractice
         static void Main(string[] args)
         {
             #region Func
-            //this tells me that f is a function that takes an int and returns an int
-            Func<int, int> Square = x => x * x;
-            //this function takes 2 integers value as parameters and returns a int as a result
-            Func<int, int, int> Prod = (x, y) => (x * y);
+            ////this tells me that f is a function that takes an int and returns an int
+            //Func<int, int> Square = x => x * x;
+            ////this function takes 2 integers value as parameters and returns a int as a result
+            //Func<int, int, int> Prod = (x, y) => (x * y);
 
-            Console.WriteLine(Square(2));
-            Console.WriteLine(Prod(2, 5));
-            Console.WriteLine("*******************");
+            //Console.WriteLine(Square(2));
+            //Console.WriteLine(Prod(2, 5));
+            //Console.WriteLine("*******************");
             #endregion
-            string path = @"C:\windows";
-            ShowFilesWithoutLinq(path);
-            Console.WriteLine("******************");
-            ShowFilesWithLinq(path);
+            #region Linq First Try
+            //string path = @"C:\windows";
+            //ShowFilesWithoutLinq(path);
+            //Console.WriteLine("******************");
+            //ShowFilesWithLinq(path);
+            #endregion
+
+            #region Linq Features
+
+            #endregion
             Console.ReadLine();
         }
 
