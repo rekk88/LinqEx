@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqPractice", "LinqPractice\LinqPractice.csproj", "{EE445021-BD91-4C0D-A5F2-0CB0395E40D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqFeatures", "LinqFeatures\LinqFeatures.csproj", "{67468C3E-7D87-4D1A-A58A-EFB6B3BC01EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqFeatures", "LinqFeatures\LinqFeatures.csproj", "{67468C3E-7D87-4D1A-A58A-EFB6B3BC01EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{CA85927E-D701-49CA-B306-713854ABCB5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{67468C3E-7D87-4D1A-A58A-EFB6B3BC01EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67468C3E-7D87-4D1A-A58A-EFB6B3BC01EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67468C3E-7D87-4D1A-A58A-EFB6B3BC01EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA85927E-D701-49CA-B306-713854ABCB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA85927E-D701-49CA-B306-713854ABCB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA85927E-D701-49CA-B306-713854ABCB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA85927E-D701-49CA-B306-713854ABCB5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj": {}
+    "C:\\Users\\rakaro\\Source\\Repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj": {
+    "C:\\Users\\rakaro\\Source\\Repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj",
+        "projectUniqueName": "C:\\Users\\rakaro\\Source\\Repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj",
         "projectName": "LinqFeatures",
-        "projectPath": "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj",
-        "packagesPath": "C:\\Users\\Maicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maicol\\source\\repos\\LinqEx\\LinqPractice\\LinqFeatures\\obj\\",
+        "projectPath": "C:\\Users\\rakaro\\Source\\Repos\\LinqEx\\LinqPractice\\LinqFeatures\\LinqFeatures.csproj",
+        "packagesPath": "C:\\Users\\rakaro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rakaro\\Source\\Repos\\LinqEx\\LinqPractice\\LinqFeatures\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rakaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
