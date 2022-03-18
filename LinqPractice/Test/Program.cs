@@ -1,50 +1,55 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Test
 {
     class Program
-    { 
-      
+    {
+     
         static void Main(string[] args)
         {
-            string str = "AAAABBBCCDAABBB";
-           
-            List<string> filteredValues = new List<string>();
-
-            //int[] numbers = { 1, 2, 2, 3, 3 };
-            int savePosition = 0, i = 0;
-            string savedChar = string.Empty;
-            for (i = savePosition; i < str.Length; i++)
+            string toOrder = "is2 Thi1s T4est 3a";
+            string[] splitted = toOrder.Split(" ");
+            int[] numbers = { };
+            //var sorted = splitted.OrderBy(item => int.TryParse(item, out int n));
+            foreach (var item in splitted)
             {
-              
-                if (i+1 < str.Length)
-                {
-                    if (str[i] == str[i + 1])
-                    {
-                        for (int j = i + 2; j < str.Length; j++)
-                        {
-                            if (str[i] != str[j])
-                            {
-                                savePosition = j-1;
-                                
-                                break;
-                            }
-                        }
-                        if(i <= savePosition) 
-                        {
-                            savedChar = string.Concat(str[i..savePosition].Distinct().TakeWhile(char.IsLetter));
-                        }
-                        
-                        i = savePosition;
-                        filteredValues.Add(savedChar.ToString());
-                    }
-                }
-                
+                int resultNumber = int.Parse( Regex.Match(item, @"\d+").Value);
+                numbers-(resultNumber);
             }
 
-            Console.WriteLine("ciao");
+            //for (int i = 0; i < splitted.Length; i++)
+            //{
+            //    if(int.TryParse(splitted[i], out int n))
+            //    {
+            //        numbers.Append(n); //n rappresenta la singola parola e l'indice in cui si trova il suo ordinamento
+            //    }
+            //}
+            //var ordered = splitted.OrderBy(item => )
         }
+
+        static string Order(string words)
+        {
+
+
+            return words;
+        }
+        
+        static IEnumerable<T> UniqueInOrder<T>(IEnumerable<T> iterable)
+        {
+            var retList = new List<T>();
+            foreach (var element in iterable)
+            {
+                if (!element.Equals(retList.LastOrDefault())) 
+                {
+                    retList.Add(element);
+                }
+            };
+            return retList;
+        }
+
+
     }
 }

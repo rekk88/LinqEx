@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rakaro\\.nuget\\packages\\": {}
+    "C:\\Users\\Maicol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rakaro\\Source\\Repos\\LinqEx\\LinqPractice\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\Maicol\\Source\\Repos\\LinqEx\\LinqPractice\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\rakaro\\Source\\Repos\\LinqEx\\LinqPractice\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\rakaro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rakaro\\Source\\Repos\\LinqEx\\LinqPractice\\Test\\obj\\",
+      "projectPath": "C:\\Users\\Maicol\\Source\\Repos\\LinqEx\\LinqPractice\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\Maicol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maicol\\Source\\Repos\\LinqEx\\LinqPractice\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rakaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Maicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
