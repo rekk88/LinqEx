@@ -10,46 +10,38 @@ namespace Test
      
         static void Main(string[] args)
         {
-            string toOrder = "is2 Thi1s T4est 3a";
-            string[] splitted = toOrder.Split(" ");
-            int[] numbers = { };
-            //var sorted = splitted.OrderBy(item => int.TryParse(item, out int n));
-            foreach (var item in splitted)
+            int n = 1652;
+            string numbers = n.ToString();
+            int[] rtnNumbers = new int[numbers.Length];
+            for (int i = 0; i < numbers.Length; i++)
             {
-                int resultNumber = int.Parse( Regex.Match(item, @"\d+").Value);
-                numbers-(resultNumber);
+                rtnNumbers[i] = int.Parse(numbers[i].ToString());
             }
 
-            //for (int i = 0; i < splitted.Length; i++)
-            //{
-            //    if(int.TryParse(splitted[i], out int n))
-            //    {
-            //        numbers.Append(n); //n rappresenta la singola parola e l'indice in cui si trova il suo ordinamento
-            //    }
-            //}
-            //var ordered = splitted.OrderBy(item => )
-        }
 
-        static string Order(string words)
-        {
+            //int digitsNumber = (int)Math.Floor(Math.Log10(n) + 1);
 
-
-            return words;
-        }
-        
-        static IEnumerable<T> UniqueInOrder<T>(IEnumerable<T> iterable)
-        {
-            var retList = new List<T>();
-            foreach (var element in iterable)
+            double sum = 0;
+            for (int i = 0; i < rtnNumbers.Length; i++)
             {
-                if (!element.Equals(retList.LastOrDefault())) 
-                {
-                    retList.Add(element);
-                }
-            };
-            return retList;
+                sum += Math.Pow(rtnNumbers[i], rtnNumbers.Length);
+            }
+            if (sum == n)
+            {
+                //return true
+            }
+            else
+            {
+                //return false
+            }
+            Console.WriteLine(sum);
         }
-
-
     }
+
+     
+        
+    
+
+
+    
 }
